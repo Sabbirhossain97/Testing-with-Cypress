@@ -1,4 +1,5 @@
 describe("test radio and checkbox elements", () => {
+
     it("test radio buttons", () => {
         cy.visit("http://127.0.0.1:5500/")
 
@@ -33,5 +34,10 @@ describe("test radio and checkbox elements", () => {
         // //selecting all checkbox at a time
         cy.get("input.check-input[type='checkbox']").last().check()
 
+    })
+     
+    it('test dropdowns', () => {
+        cy.visit("http://127.0.0.1:5500/")
+        cy.get("#dropdown1").select('option3').should('have.value','option3')
     })
 })

@@ -56,3 +56,66 @@
        gap: 10px;
        margin-top: 20px;
    }
+
+   .dropdown-group {
+       display: flex;
+       flex-direction: column;
+       gap: 15px;
+       margin-top: 10px;
+   }
+
+   .dropdown-container {
+       margin-top: 50px;
+       background: white;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       width: 300px;
+       text-align: center;
+   }
+
+   .dropdown-container>div>p {
+       font-weight: bold;
+   }
+
+   .alert-container {
+       margin-top: 50px;
+       background: white;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       width: 300px;
+       text-align: center;
+   }
+
+   .alert-container>p {
+       font-weight: bold;
+   }
+
+   .tab-container {
+       margin-top: 50px;
+       background: white;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       width: 300px;
+       text-align: center;
+   }
+
+   .tab-container p {
+       font-weight: bold;
+   }
+
+   .iframe-container {
+       margin-top: 50px;
+       background: white;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       width: 600px;
+       text-align: center;
+   }
+
+   .iframe-container p {
+       font-weight: bold;
+   }
