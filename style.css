@@ -119,3 +119,28 @@
    .iframe-container p {
        font-weight: bold;
    }
+
+   .table-container {
+       margin-top: 50px;
+       background: white;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       width: 600px;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+
+   .table-container p {
+       font-weight: bold;
+   }
+
+   .table-container table {
+       border: 1px solid rgb(185, 182, 182)
+   }
+
+   .table-container table thead {
+       background-color: aliceblue;
+   }
