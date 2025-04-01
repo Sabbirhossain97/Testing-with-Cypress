@@ -9,3 +9,8 @@ function jsConfirm() {
 function jsPrompt() {
     prompt("I am a JS Prompt")
 }
+
+document.getElementById("double-click-btn").addEventListener("dblclick", function () {
+    this.textContent = "Double Clicked!";
+    this.classList.add("double-clicked");
+});

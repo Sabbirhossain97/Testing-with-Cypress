@@ -144,3 +144,62 @@
    .table-container table thead {
        background-color: aliceblue;
    }
+
+   .mouseOperations-container {
+       margin-top: 50px;
+       background: white;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap: 10px;
+   }
+
+   .mouseOperations-container p {
+       font-weight: bold;
+   }
+
+   .hover-area {
+       width: 200px;
+       height: 100px;
+       margin: 20px 0;
+       background-color: #f0f0f0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 2px dashed #ccc;
+   }
+
+   .hover-area:hover {
+       border: 2px dashed #2afd009a;
+   }
+
+   .right-click-area {
+       background-color: #f0f0f0;
+       padding: 5px;
+       border: 2px solid #ccc;
+   }
+
+   .double-clicked {
+       background-color: #28a745 !important;
+   }
+
+   .scrollview-container {
+       margin-top: 50px;
+       background: white;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap: 10px;
+   }
+
+   .scrollview-container p {
+       font-weight: bold;
+   }
